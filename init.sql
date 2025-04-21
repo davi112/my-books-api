@@ -1,0 +1,26 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+CREATE TABLE AUTOR(
+	id UUID NOT NULL DEFAULT uuid_generate_v4(),
+	nome VARCHAR(40) NOT NULL,
+	biografia TEXT,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE LIVRO(
+  id UUID NOT NULL DEFAULT uuid_generate_v4(),
+  titulo VARCHAR(50) NOT NULL,
+	sinopse TEXT,
+	num_paginas INT NOT NULL,
+	lancamento INT,
+	PRIMARY KEY(ID)
+);
+
+CREATE TABLE AUTOR_LIVRO(
+  id UUID NOT NULL DEFAULT uuid_generate_v4(),
+	id_livro UUID NOT NULL,
+	id_autor UUID NOT NULL,
+	PRIMARY KEY(ID),
+	FOREIGN KEY(id_livro) REFERENCES livro(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY(id_autor) REFERENCES autor(id) ON DELETE CASCADE ON UPDATE CASCADE
+);

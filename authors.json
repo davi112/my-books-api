@@ -1,0 +1,16 @@
+{
+    "authors": [
+        {
+            "nome": "Rick Kazman",
+            "biografia" : "Rick Kazman is a Professor at the University of Hawaii and a Visiting Scientist (and former Senior Member of the Technical Staff) at the Software Engineering Institute of Carnegie Mellon University. His primary research interests are software architecture, design and analysis tools, software visualization, and software engineering economics."
+        },
+        {
+            "nome": "Len Bass",
+            "biografia" : "Senior Principal Researcher at National ICT Australia Ltd (NICTA). He joined NICTA in 2011 after twenty-five years at the Software Engineering Institute (SEI) at Carnegie Mellon University. He is the coauthor of two award-winning books in software architecture, including Documenting Software Architectures: Views and Beyond, Second Edition (Addison-Wesley, 2011), as well as several other books and numerous papers in computer science and software engineering on a wide range of topics. Len has almost fifty years’ experience in software development and research in multiple domains, such as scientific analysis systems, embedded systems, and information systems."
+        },
+        {
+            "nome": "Mark Richards",
+            "biografia" : "An experienced, hands-on software architect involved in the architecture, design, and implementation of microservices architectures, service-oriented architectures, and distributed systems in a variety of technologies. He has been in the software industry since 1983 and has significant experience and expertise in application, integration, and enterprise architecture. Mark served as the president of the New England Java Users Group from 1999 through 2003. He is the author of numerous technical books and videos, including the Fundamentals of Software Architecture, Software Architecture Fundamentals Video Series, and several books and videos on microservices as well as enterprise messaging. Mark is also a conference speaker and trainer and has spoken at hundreds of conferences and user groups around the world on a variety of enterprise-related technical topics."
+        }
+    ]
+}
