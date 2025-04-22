@@ -4,8 +4,11 @@ const db = require('./database');
 
 const app = express();
 
-app.use(express.json())
+app.use(express.json()) //MIDDLEWARE
+
 app.use(routes);
+
+//MIDDLEWARE - ERROR HANDLER (exemplo)
 app.use((error, request, response, next) => {
   console.log(error);
   db.query('ROLLBACK');
